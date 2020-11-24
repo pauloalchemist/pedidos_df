@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.18.3"
+  },
+  "main": "src/server.js",
+  "author": "pauloalchemist <paulolinsdev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon src/server.js",
+    "prod": "NODE_ENV=prod src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "package.json": "^2.0.1",
+    "pg": "^8.4.2",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
