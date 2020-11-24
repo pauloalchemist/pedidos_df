@@ -1,0 +1,7 @@
+CREATE TABLE pedidos
+(
+  id SERIAL PRIMARY KEY,
+  id_c INT REFERENCES orders(id) NOT NULL,
+  id_p INT REFERENCES products(id) NOT NULL,
+  qtd INTEGER NOT NULL,
+)

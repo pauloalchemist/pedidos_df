@@ -1,0 +1,11 @@
+CREATE TABLE customers
+(
+  id SERIAL PRIMARY KEY,
+  ordered VARCHAR(90) NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  public_place VARCHAR(255) NOT NULL,
+  complement VARCHAR(255) NOT NULL,
+  district VARCHAR (255) NOT NULL,
+  cep VARCHAR(50) NOT NULL
+)
